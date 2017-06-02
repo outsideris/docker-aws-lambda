@@ -1,0 +1,3 @@
+= Amazon Linux for AWS Lambda
+
+to run tests in AWS Lambda environments when I write lambda functions.
