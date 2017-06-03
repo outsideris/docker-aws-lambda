@@ -1,10 +1,7 @@
 FROM amazonlinux:2016.09
 MAINTAINER Outsider <outsideris@gmail.com>
 
-FROM ubuntu:16.04
-
-RUN apt-get update
-RUN apt-get install -y curl xz-utils python make gcc g++
+RUN yum install -y xz fontconfig liberation-sans-fonts
 
 # gpg keys listed at https://github.com/nodejs/node
 RUN set -ex \
